@@ -7,8 +7,8 @@ var NSEAPI = API.NSE;
 
 var app = express();
 
-app.listen(80, () => {
-  console.log("Server running on port 80");
+app.listen(3000, () => {
+  console.log("Server running on port 3000");
 });
 
 // National Stock Exchange (NSE) APIS
